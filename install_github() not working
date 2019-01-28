@@ -16,3 +16,8 @@ If they're not on CRAN, you'll have to run this process to install dependencies 
 However, once thats done, Install and Restart
 
 You could delete the folder that was previously unzipped because it's been cloned to the reserved folder from step 2
+
+
+github.com/ropensci/git2r seems to provide some nice functionality as well but my specific issue was utils::download... not having access to the file
+
+
