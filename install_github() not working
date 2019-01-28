@@ -1,0 +1,18 @@
+Manually get the repo folder on your computer
+
+Unzip to a folder not in ~/Documents/R/win-library/3.5
+- this is reserved for installing packages into and would return an error on build and create worse complications
+
+Open .Rprog file
+
+Open description
+
+Install Dependencies, Usually would need only imports
+
+install.packages() takes in a vector so you could list them all out as strings and pass as arg
+
+If they're not on CRAN, you'll have to run this process to install dependencies from github prior to final install
+
+However, once thats done, Install and Restart
+
+You could delete the folder that was previously unzipped because it's been cloned to the reserved folder from step 2
